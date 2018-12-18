@@ -1,5 +1,7 @@
 # Multi Postgres
 
+![](https://badgen.net/badge//mayeu%2Fmultipostgres/blue?icon=docker)
+
 A postgres docker image where you can create multiple database.
 
 This image is enterily based on [the official postgres
