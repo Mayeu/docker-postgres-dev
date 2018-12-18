@@ -1,6 +1,6 @@
 # Multi Postgres
 
-![](https://badgen.net/badge//mayeu%2Fmultipostgres/blue?icon=docker)
+[![](https://badgen.net/badge//mayeu%2Fmultipostgres/blue?icon=docker)](https://hub.docker.com/r/mayeu/multipostgres)
 
 A postgres docker image where you can create multiple database.
 
