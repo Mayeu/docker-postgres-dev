@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script help to install stuff in docker without all the verbosity require
+# to update and clean before each steps.
+
+apt-get update                                  && \
+apt-get install -y "$@"                         && \
+apt-get autoremove -y                           && \
+apt-get clean                                   && \
+rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*

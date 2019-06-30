@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # strict mode
-set -ex
-#set -euo pipefail
+#set -e
+set -euo pipefail
 #IFS=$'\n\t'
 
 # readonly what we need to stay the same
