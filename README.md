@@ -1,6 +1,6 @@
 # 🐘 Postgres Dev image
 
-[![](https://badgen.net/badge//mayeu%2Fmultipostgres/blue?icon=docker)](https://hub.docker.com/r/mayeu/multipostgres)
+[![](https://badgen.net/badge/docker/mayeu%2Fmultipostgres/blue?icon=docker&label)](https://hub.docker.com/r/mayeu/multipostgres)
 
 This is a postgres docker image taillored toward software devlopement and
 testing.
