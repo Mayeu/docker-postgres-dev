@@ -2,13 +2,13 @@
 
 [![](https://badgen.net/badge/docker/mayeu%2Fmultipostgres/blue?icon=docker&label)](https://hub.docker.com/r/mayeu/multipostgres)
 
-This is a postgres docker image taillored toward software devlopement and
+This is a postgres docker image tailored toward software development and
 testing.
 
 **It should not be run in production at all**. You **will** lose data if you do
-so (see the features.)
+so (see the features).
 
-This image is enterily based on [the official postgres one][opi]. Thus, the
+This image is entirely based on [the official postgres one][opi]. Thus, the
 following documentation only covers the additional configuration specific to
 this image.
 
@@ -34,7 +34,7 @@ achieve this.
 ### POSTGRES\_ADDITIONAL\_DB
 
 In addition to the database created with the `POSTGRES_DB` environment
-variable, this image provide support to have any number of DB via the
+variable, this image provides support to have any number of DB via the
 `POSTGRES_ADDITIONAL_DB`.
 
 Note that all the DB created like this will use the same user and password that
